@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:responsible_kid/constants/app_strings.dart';
-import 'package:responsible_kid/views/screens/auth/login_screen.dart';
+import 'package:responsible_kid/views/screens/auth/signin_screen.dart';
 import 'package:responsible_kid/views/screens/auth/signup_screen.dart';
 import 'package:responsible_kid/views/screens/nk_daily_to_do.dart';
 import 'package:responsible_kid/views/screens/nk_daily_to_do_details_screen.dart';
@@ -29,7 +29,7 @@ class AppPages {
     ),
     GetPage(
       name: AppStrings.loginRout,
-      page: () => const LoginScreen(),
+      page: () => const SignInScreen(),
       transition: Transition.fadeIn,
       transitionDuration: const Duration(
         milliseconds: 250,

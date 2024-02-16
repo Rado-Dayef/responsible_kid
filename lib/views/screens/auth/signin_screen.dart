@@ -3,12 +3,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:responsible_kid/constants/app_colors.dart';
 import 'package:responsible_kid/constants/app_strings.dart';
-import 'package:responsible_kid/controllers/auth/login_controller.dart';
+import 'package:responsible_kid/controllers/auth/signin_controller.dart';
 import 'package:responsible_kid/views/widgets/form_field_widget.dart';
 import 'package:responsible_kid/views/widgets/gap_widget.dart';
 
-class LoginScreen extends GetWidget<LoginController> {
-  const LoginScreen({super.key});
+class SignInScreen extends GetWidget<SignInController> {
+  const SignInScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -167,7 +167,7 @@ class LoginScreen extends GetWidget<LoginController> {
                                             crossAxisAlignment: CrossAxisAlignment.center,
                                             children: [
                                               Text(
-                                                "SIGN IN",
+                                                AppStrings.signInCText,
                                                 style: TextStyle(
                                                   color: AppColors.white,
                                                   fontSize: 20.sp,

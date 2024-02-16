@@ -42,8 +42,16 @@ class AppStrings {
   static const String openingSquareBracketSign = "[";
 
   /// Validations
+  static const String invalidDayValidate = "Invalid day";
+  static const String invalidYearValidate = "Invalid year";
   static const String iDEmptyValidate = "ID can't be empty";
+  static const String invalidMonthValidate = "Invalid month";
+  static const String nameEmptyValidate = "Name can't be empty";
+  static const String invalidBirthDateValidate = "Invalid birth date";
   static const String passwordEmptyValidate = "Password can't be empty";
+  static const String birthDateEmptyValidate = "Birth date can't be empty";
+  static const String nameLessThen4Validate = "Name can't be less then 4 letters";
+  static const String nameLargerThen24Validate = "Name can't be larger then 24 letters";
   static const String passwordLessThen8Validate = "Password can't be less then 8 letters";
   static const String passwordLargerThen24Validate = "Password can't be larger then 24 letters";
   static const String iDMoreOrLessThen8NumbersValidate = "ID can't be more or less then 8 numbers";
@@ -62,10 +70,15 @@ class AppStrings {
 
   /// Other
   static const String iDText = "ID";
+  static const String nameText = "Name";
   static const String hiKidText = "Hi Kid";
   static const String signInText = "Sign In";
   static const String signupText = "Sign Up";
+  static const String signInCText = "SIGN IN";
+  static const String signUpCText = "SIGN UP";
   static const String passwordText = "Password";
+  static const String birthdateText = "Birthdate";
   static const String signInToContinueText = "Sign in to continue";
   static const String doNotHaveAccountText = "Don't have an account";
+  static const String alreadyHaveAccountText = "Already have an account";
 }

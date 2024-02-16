@@ -4,7 +4,7 @@ import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:responsible_kid/constants/app_defaults.dart';
 import 'package:responsible_kid/constants/app_strings.dart';
 
-class LoginController extends GetxController {
+class SignInController extends GetxController {
   String? iD, password;
   RxBool obscure = RxBool(true);
   RxBool isLoading = RxBool(false);
