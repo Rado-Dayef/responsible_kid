@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042069687364",
+    "project_id": "responsible-kid",
+    "storage_bucket": "responsible-kid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042069687364:android:9efd7869d84cf50ecd8011",
+        "android_client_info": {
+          "package_name": "com.rado.responsible_kid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr_ZEu5TiEvL3QEWTUP6RvrtBGiAYGvWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
