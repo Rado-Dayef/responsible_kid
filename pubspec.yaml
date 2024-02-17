@@ -15,12 +15,14 @@ dependencies:
   internet_connection_checker: ^1.0.0+1
   flutter_launcher_icons: ^0.13.1
   flutter_screenutil: ^5.9.0
+  percent_indicator: ^4.2.3
   cupertino_icons: ^1.0.2
   firebase_core: ^2.25.4
   fluttertoast: ^8.2.4
   shimmer: ^3.0.0
   lottie: ^3.0.0
   get: ^4.6.6
+  youtube_player_flutter: ^8.1.2
 
 dev_dependencies:
   flutter_test:

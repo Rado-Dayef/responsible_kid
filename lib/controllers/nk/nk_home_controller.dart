@@ -1,0 +1,77 @@
+import 'package:get/get.dart';
+import 'package:responsible_kid/constants/app_strings.dart';
+
+class NKHomeController extends GetxController {
+  List homeItemsDate = [
+    {
+      AppStrings.titleText: AppStrings.morningRoutineText,
+      AppStrings.imageText: AppStrings.morningRoutineAsset,
+      AppStrings.vidIDText: AppStrings.iD1,
+      AppStrings.dataDescriptionText: AppStrings.equalsText,
+      AppStrings.task1Text: AppStrings.notAvailableText,
+      AppStrings.task2Text: AppStrings.notAvailableText,
+      AppStrings.task3Text: AppStrings.notAvailableText,
+      AppStrings.task4Text: AppStrings.notAvailableText,
+    },
+    {
+      AppStrings.titleText: AppStrings.learningActivitiesText,
+      AppStrings.imageText: AppStrings.learningActivitiesAsset,
+      AppStrings.vidIDText: AppStrings.iD2,
+      AppStrings.dataDescriptionText: AppStrings.equalsText,
+      AppStrings.task1Text: AppStrings.notAvailableText,
+      AppStrings.task2Text: AppStrings.notAvailableText,
+      AppStrings.task3Text: AppStrings.notAvailableText,
+      AppStrings.task4Text: AppStrings.notAvailableText,
+    },
+    {
+      AppStrings.titleText: AppStrings.shortStoriesText,
+      AppStrings.imageText: AppStrings.shortStoriesAsset,
+      AppStrings.vidIDText: AppStrings.iD3,
+      AppStrings.dataDescriptionText: AppStrings.equalsText,
+      AppStrings.task1Text: AppStrings.notAvailableText,
+      AppStrings.task2Text: AppStrings.notAvailableText,
+      AppStrings.task3Text: AppStrings.notAvailableText,
+      AppStrings.task4Text: AppStrings.notAvailableText,
+    },
+    {
+      AppStrings.titleText: AppStrings.choresText,
+      AppStrings.imageText: AppStrings.choresAsset,
+      AppStrings.vidIDText: AppStrings.notAvailableText,
+      AppStrings.dataDescriptionText: AppStrings.equalsText,
+      AppStrings.task1Text: AppStrings.notAvailableText,
+      AppStrings.task2Text: AppStrings.notAvailableText,
+      AppStrings.task3Text: AppStrings.notAvailableText,
+      AppStrings.task4Text: AppStrings.notAvailableText,
+    },
+    {
+      AppStrings.titleText: AppStrings.familyTimeText,
+      AppStrings.imageText: AppStrings.familyTimeAsset,
+      AppStrings.vidIDText: AppStrings.notAvailableText,
+      AppStrings.dataDescriptionText: AppStrings.equalsText,
+      AppStrings.task1Text: AppStrings.notAvailableText,
+      AppStrings.task2Text: AppStrings.notAvailableText,
+      AppStrings.task3Text: AppStrings.notAvailableText,
+      AppStrings.task4Text: AppStrings.notAvailableText,
+    },
+    {
+      AppStrings.titleText: AppStrings.gamesText,
+      AppStrings.imageText: AppStrings.gamesAsset,
+      AppStrings.vidIDText: AppStrings.notAvailableText,
+      AppStrings.dataDescriptionText: AppStrings.equalsText,
+      AppStrings.task1Text: AppStrings.notAvailableText,
+      AppStrings.task2Text: AppStrings.notAvailableText,
+      AppStrings.task3Text: AppStrings.notAvailableText,
+      AppStrings.task4Text: AppStrings.notAvailableText,
+    },
+    {
+      AppStrings.titleText: AppStrings.educationText,
+      AppStrings.imageText: AppStrings.educationAsset,
+      AppStrings.vidIDText: AppStrings.notAvailableText,
+      AppStrings.dataDescriptionText: AppStrings.equalsText,
+      AppStrings.task1Text: AppStrings.notAvailableText,
+      AppStrings.task2Text: AppStrings.notAvailableText,
+      AppStrings.task3Text: AppStrings.notAvailableText,
+      AppStrings.task4Text: AppStrings.notAvailableText,
+    },
+  ];
+}

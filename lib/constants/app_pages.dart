@@ -1,22 +1,39 @@
 import 'package:get/get.dart';
 import 'package:responsible_kid/constants/app_strings.dart';
+import 'package:responsible_kid/controllers/ak/ak_chat_screen.dart';
+import 'package:responsible_kid/views/screens/ak/ak_home_screen.dart';
 import 'package:responsible_kid/views/screens/auth/signin_screen.dart';
 import 'package:responsible_kid/views/screens/auth/signup_screen.dart';
-import 'package:responsible_kid/views/screens/nk_daily_to_do.dart';
-import 'package:responsible_kid/views/screens/nk_daily_to_do_details_screen.dart';
-import 'package:responsible_kid/views/screens/nk_home_item_details.dart';
-import 'package:responsible_kid/views/screens/nk_home_screen.dart';
-import 'package:responsible_kid/views/screens/nk_profile_screen.dart';
+import 'package:responsible_kid/views/screens/nk/nk_daily_to_do_item_details_screen.dart';
+import 'package:responsible_kid/views/screens/nk/nk_daily_to_do_screen.dart';
+import 'package:responsible_kid/views/screens/nk/nk_home_item_details.dart';
+import 'package:responsible_kid/views/screens/nk/nk_home_screen.dart';
 import 'package:responsible_kid/views/screens/splash_screen.dart';
 
 class AppPages {
   static List<GetPage> appPages = [
     GetPage(
+      name: AppStrings.aKChatRout,
+      page: () => const AkChatScreen(),
+      transition: Transition.fadeIn,
+      transitionDuration: const Duration(
+        milliseconds: 500,
+      ),
+    ),
+    GetPage(
+      name: AppStrings.aKHomeRout,
+      page: () => const AKHomeScreen(),
+      transition: Transition.fadeIn,
+      transitionDuration: const Duration(
+        milliseconds: 500,
+      ),
+    ),
+    GetPage(
       name: AppStrings.nKHomeRout,
       page: () => const NKHomeScreen(),
       transition: Transition.fadeIn,
       transitionDuration: const Duration(
-        milliseconds: 250,
+        milliseconds: 500,
       ),
     ),
     GetPage(
@@ -24,7 +41,7 @@ class AppPages {
       page: () => const SplashScreen(),
       transition: Transition.fadeIn,
       transitionDuration: const Duration(
-        milliseconds: 250,
+        milliseconds: 500,
       ),
     ),
     GetPage(
@@ -32,7 +49,7 @@ class AppPages {
       page: () => const SignInScreen(),
       transition: Transition.fadeIn,
       transitionDuration: const Duration(
-        milliseconds: 250,
+        milliseconds: 500,
       ),
     ),
     GetPage(
@@ -40,15 +57,7 @@ class AppPages {
       page: () => const SignupScreen(),
       transition: Transition.fadeIn,
       transitionDuration: const Duration(
-        milliseconds: 250,
-      ),
-    ),
-    GetPage(
-      name: AppStrings.nKProfileRout,
-      page: () => const NKProfileScreen(),
-      transition: Transition.fadeIn,
-      transitionDuration: const Duration(
-        milliseconds: 250,
+        milliseconds: 500,
       ),
     ),
     GetPage(
@@ -56,15 +65,15 @@ class AppPages {
       page: () => const NKHomeItemDetailsScreen(),
       transition: Transition.fadeIn,
       transitionDuration: const Duration(
-        milliseconds: 250,
+        milliseconds: 500,
       ),
     ),
     GetPage(
-      name: AppStrings.nKDailyToDoDetailsRout,
-      page: () => const NKDailyToDoDetailsScreen(),
+      name: AppStrings.nKDailyToDoItemDetailsRout,
+      page: () => const NKDailyToDoItemDetailsScreen(),
       transition: Transition.fadeIn,
       transitionDuration: const Duration(
-        milliseconds: 250,
+        milliseconds: 500,
       ),
     ),
     GetPage(
@@ -72,7 +81,7 @@ class AppPages {
       page: () => const NKDailyToDoScreen(),
       transition: Transition.fadeIn,
       transitionDuration: const Duration(
-        milliseconds: 250,
+        milliseconds: 500,
       ),
     ),
   ];
